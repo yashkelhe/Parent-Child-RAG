@@ -1,0 +1,7 @@
+PyMuPDF==1.24.10
+langchain==0.3.7
+langchain-text-splitters==0.3.2
+google-genai==1.2.0
+pinecone==5.4.2
+python-dotenv==1.0.1
+tiktoken==0.8.0
