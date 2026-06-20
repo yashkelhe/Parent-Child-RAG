@@ -11,7 +11,7 @@ PDF → PDFLoader → DocumentNormalizer → ParentChunker → parents.json
                                        ChildChunker → Embedder → Pinecone
 
 
-Query → Embed → Search Pinecone (children) → unique parent_ids
+Query → Embed → Search Pinecone (children) → unique parent_ids ( Deduplication )
       → load parents.json → PromptBuilder → Gemini → Answer
 ```
 
